@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placeholder Image Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .placeholder-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        .placeholder-item {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        canvas {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
+        .info {
+            font-size: 14px;
+            color: #666;
+        }
+        .replacement-guide {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin-top: 30px;
+        }
+        .replacement-guide h2 {
+            color: #856404;
+            margin-top: 0;
+        }
+        .replacement-guide ul {
+            margin: 10px 0;
+        }
+        .replacement-guide li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>THISGLOBAL 플레이스홀더 이미지</h1>
+        
+        <div class="placeholder-grid">
+            <!-- LED Display Placeholder -->
+            <div class="placeholder-item">
+                <canvas id="led-display" width="600" height="400"></canvas>
+                <div class="info">
+                    <strong>LED Display</strong><br>
+                    크기: 600x400px<br>
+                    파일명: placeholder-led-display.jpg
+                </div>
+            </div>
+            
+            <!-- Media Contents Placeholder -->
+            <div class="placeholder-item">
+                <canvas id="media" width="600" height="400"></canvas>
+                <div class="info">
+                    <strong>Media Contents</strong><br>
+                    크기: 600x400px<br>
+                    파일명: placeholder-media.jpg
+                </div>
+            </div>
+            
+            <!-- Interactive Signage Placeholder -->
+            <div class="placeholder-item">
+                <canvas id="interactive" width="600" height="400"></canvas>
+                <div class="info">
+                    <strong>Interactive Signage</strong><br>
+                    크기: 600x400px<br>
+                    파일명: placeholder-interactive.jpg
+                </div>
+            </div>
+            
+            <!-- TP LED Placeholder -->
+            <div class="placeholder-item">
+                <canvas id="tp-led" width="600" height="400"></canvas>
+                <div class="info">
+                    <strong>TP LED</strong><br>
+                    크기: 600x400px<br>
+                    파일명: placeholder-tp-led.jpg
+                </div>
+            </div>
+            
+            <!-- Outdoor Solutions Placeholder -->
+            <div class="placeholder-item">
+                <canvas id="outdoor" width="600" height="400"></canvas>
+                <div class="info">
+                    <strong>Outdoor Solutions</strong><br>
+                    크기: 600x400px<br>
+                    파일명: placeholder-outdoor.jpg
+                </div>
+            </div>
+            
+            <!-- Rental Service Placeholder -->
+            <div class="placeholder-item">
+                <canvas id="rental" width="600" height="400"></canvas>
+                <div class="info">
+                    <strong>Rental Service</strong><br>
+                    크기: 600x400px<br>
+                    파일명: placeholder-rental.jpg
+                </div>
+            </div>
+            
+            <!-- Partner Logos Placeholders -->
+            <div class="placeholder-item">
+                <canvas id="logo1" width="200" height="100"></canvas>
+                <div class="info">
+                    <strong>Partner Logo 1-6</strong><br>
+                    크기: 200x100px<br>
+                    파일명: placeholder-logo-1~6.png
+                </div>
+            </div>
+            
+            <!-- OG Image Placeholder -->
+            <div class="placeholder-item">
+                <canvas id="og-image" width="1200" height="630"></canvas>
+                <div class="info">
+                    <strong>OG Image</strong><br>
+                    크기: 1200x630px<br>
+                    파일명: og-image.jpg
+                </div>
+            </div>
+        </div>
+        
+        <div class="replacement-guide">
+            <h2>🔄 이미지 교체 가이드</h2>
+            <p>아래 이미지들을 실제 THISGLOBAL 이미지로 교체해주세요:</p>
+            
+            <h3>1. 제품/솔루션 이미지 (600x400px)</h3>
+            <ul>
+                <li><strong>placeholder-led-display.jpg</strong> → LED 디스플레이 제품 이미지</li>
+                <li><strong>placeholder-media.jpg</strong> → 미디어 콘텐츠 관련 이미지</li>
+                <li><strong>placeholder-interactive.jpg</strong> → 인터랙티브 사이니지 이미지</li>
+                <li><strong>placeholder-tp-led.jpg</strong> → TP LED (투명 LED) 이미지</li>
+                <li><strong>placeholder-outdoor.jpg</strong> → 실외 대형 디스플레이 이미지</li>
+                <li><strong>placeholder-rental.jpg</strong> → 렌탈 서비스 관련 이미지</li>
+            </ul>
+            
+            <h3>2. 파트너사 로고 (200x100px)</h3>
+            <ul>
+                <li><strong>placeholder-logo-1~6.png</strong> → 실제 파트너사/고객사 로고 (투명 배경 권장)</li>
+            </ul>
+            
+            <h3>3. 소셜 미디어 이미지</h3>
+            <ul>
+                <li><strong>og-image.jpg</strong> (1200x630px) → 소셜 미디어 공유 시 표시될 대표 이미지</li>
+            </ul>
+            
+            <h3>4. 추가로 필요한 이미지</h3>
+            <ul>
+                <li>THISGLOBAL 로고 (SVG 또는 PNG 형식)</li>
+                <li>히어로 섹션 배경 이미지 (선택사항)</li>
+                <li>실제 프로젝트 포트폴리오 이미지</li>
+            </ul>
+            
+            <h3>📍 이미지 업로드 위치</h3>
+            <p><code>/public/static/images/</code> 폴더에 업로드하세요.</p>
+        </div>
+    </div>
+    
+    <script>
+        // Generate placeholder images
+        function createPlaceholder(canvasId, text, color) {
+            const canvas = document.getElementById(canvasId);
+            const ctx = canvas.getContext('2d');
+            
+            // Background gradient
+            const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+            gradient.addColorStop(0, color);
+            gradient.addColorStop(1, adjustColor(color, -30));
+            
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            
+            // Text
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
+            ctx.font = 'bold 24px Arial';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText(text, canvas.width / 2, canvas.height / 2);
+            
+            // Subtext
+            ctx.font = '16px Arial';
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.7)';
+            ctx.fillText(`${canvas.width} × ${canvas.height}`, canvas.width / 2, canvas.height / 2 + 35);
+        }
+        
+        function adjustColor(color, amount) {
+            const num = parseInt(color.replace('#', ''), 16);
+            const r = Math.max(0, Math.min(255, (num >> 16) + amount));
+            const g = Math.max(0, Math.min(255, ((num >> 8) & 0x00FF) + amount));
+            const b = Math.max(0, Math.min(255, (num & 0x0000FF) + amount));
+            return `#${((r << 16) | (g << 8) | b).toString(16).padStart(6, '0')}`;
+        }
+        
+        // Generate all placeholders
+        createPlaceholder('led-display', 'LED Display', '#3039e5');
+        createPlaceholder('media', 'Media Contents', '#5058f0');
+        createPlaceholder('interactive', 'Interactive Signage', '#00d4ff');
+        createPlaceholder('tp-led', 'TP LED', '#3039e5');
+        createPlaceholder('outdoor', 'Outdoor Solutions', '#1e28b3');
+        createPlaceholder('rental', 'Rental Service', '#5058f0');
+        createPlaceholder('logo1', 'Partner Logo', '#888888');
+        createPlaceholder('og-image', 'THISGLOBAL', '#3039e5');
+    </script>
+</body>
+</html>
