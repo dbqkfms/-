@@ -1,0 +1,7 @@
+{
+  "api_key": "YOUR_API_KEY_HERE",
+  "provider": "aimlapi",
+  "default_image_size": "2K",
+  "max_concurrent": 5,
+  "output_dir": "./output"
+}
