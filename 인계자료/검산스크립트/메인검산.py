@@ -6,8 +6,10 @@ import re
 import sys
 from collections import Counter
 
-R = '/home/user/-/results/'
-W = '/tmp/claude-0/-home-user--/f74f8fd9-d08b-56d5-a2e9-6c58b1e53757/scratchpad/작업/'
+import os
+_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+R = os.path.join(_ROOT, 'results') + '/'
+W = os.path.join(_ROOT, '인계자료', '장면순서') + '/'
 EP = {
     'A': dict(n='001_모기터짐', s='02_대본_001_모기터짐_영어v3.md', j='편A_장면순서.json', lo=662, hi=760, pre='P03-'),
     'B': dict(n='002_풍선껌자동차', s='02_대본_002_풍선껌자동차_영어v2.md', j='편B_장면순서.json', lo=650, hi=760, pre='GUM-'),
