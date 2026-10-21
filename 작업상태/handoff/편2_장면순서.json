@@ -1,0 +1,394 @@
+[
+  {
+    "id": "S2-01",
+    "text": "While the internet was asking chatbots how many R's are in strawberry, a different kind of AI was designing brand-new proteins from scratch."
+  },
+  {
+    "id": "S2-02",
+    "text": "So here's our question for today. Did AI just learn to write biology?"
+  },
+  {
+    "id": "S2-03",
+    "text": "Because in a real lab, those proteins grabbed their targets harder than the best designs before them."
+  },
+  {
+    "id": "S2-04",
+    "text": "And another AI wrote a gene editor that edited human DNA in cells."
+  },
+  {
+    "id": "S2-05",
+    "text": "Honestly, that sounds like hype, and part of me wants to roll my eyes."
+  },
+  {
+    "id": "S2-06",
+    "text": "But it's all in research papers, and the field behind it has a Nobel Prize."
+  },
+  {
+    "id": "S2-07",
+    "text": "There's a catch too, and I promise we'll get to it."
+  },
+  {
+    "id": "S2-08",
+    "text": "Let's do a quick refresher first."
+  },
+  {
+    "id": "S2-09",
+    "text": "A protein starts as a long chain of building blocks called amino acids, and then it folds itself into a specific 3D shape."
+  },
+  {
+    "id": "S2-10",
+    "text": "Imagine tossing a loose string in the air and watching it land as a perfectly folded paper crane."
+  },
+  {
+    "id": "S2-11",
+    "text": "Real folding isn't always that neat, and when a protein folds wrong, it can make you sick."
+  },
+  {
+    "id": "S2-12",
+    "text": "And the shape decides the job, because it's what lets a protein grab, cut, or carry something."
+  },
+  {
+    "id": "S2-13",
+    "text": "Your body is basically running a nonstop origami contest, and nobody asked you to sign up."
+  },
+  {
+    "id": "S2-14",
+    "text": "For about fifty years, predicting that shape from the chain was one of biology's most stubborn problems."
+  },
+  {
+    "id": "S2-15",
+    "text": "Then an AI called AlphaFold2 solved it, and in 2024 that earned Demis Hassabis and John Jumper half of the Nobel Prize in Chemistry."
+  },
+  {
+    "id": "S2-16",
+    "text": "The other half went to David Baker, for designing new proteins with computers."
+  },
+  {
+    "id": "S2-17",
+    "text": "Turns out a chemistry Nobel now comes with a lot of code, and somewhere a grad student pipetting at two in the morning felt that."
+  },
+  {
+    "id": "S2-18",
+    "text": "Here's the shift I think matters most."
+  },
+  {
+    "id": "S2-19",
+    "text": "Predicting a protein's shape is reading. Designing a brand-new protein for a job you picked is writing."
+  },
+  {
+    "id": "S2-20",
+    "text": "Reading is looking at a recipe and guessing the cake."
+  },
+  {
+    "id": "S2-21",
+    "text": "Writing is wanting one very specific cake and inventing a recipe nobody has written."
+  },
+  {
+    "id": "S2-22",
+    "text": "And if you've ever baked without a recipe, you know writing is where the smoke alarm goes off."
+  },
+  {
+    "id": "S2-23",
+    "text": "One big writing tool, RFdiffusion, came out of Baker's lab in a 2023 Nature paper, and it borrows the trick behind AI image generators."
+  },
+  {
+    "id": "S2-24",
+    "text": "Those generators start from pure static and clean it up step by step until a picture shows up."
+  },
+  {
+    "id": "S2-25",
+    "text": "RFdiffusion runs that same cleanup on protein shapes instead of pixels, and the lab made it open-source."
+  },
+  {
+    "id": "S2-26",
+    "text": "The tech behind cats in spacesuits is now sketching molecules."
+  },
+  {
+    "id": "S2-27",
+    "text": "Then, on September 5th, 2024, Google DeepMind announced AlphaProteo."
+  },
+  {
+    "id": "S2-28",
+    "text": "Which sounds like protein powder a gym influencer would sell you, but stay with me."
+  },
+  {
+    "id": "S2-29",
+    "text": "AlphaProteo designs binders, which are new proteins built from scratch to latch onto one specific target protein."
+  },
+  {
+    "id": "S2-30",
+    "text": "Think of the target as a lock, and the AI as a locksmith who cuts a brand-new key to fit it."
+  },
+  {
+    "id": "S2-31",
+    "text": "Stick something to a protein, and you can stop it from doing its job."
+  },
+  {
+    "id": "S2-32",
+    "text": "But a key on a screen is just a drawing, and the real test is whether it turns."
+  },
+  {
+    "id": "S2-33",
+    "text": "DeepMind made the designs and tested them in the lab."
+  },
+  {
+    "id": "S2-34",
+    "text": "For seven different target proteins, including a piece of the coronavirus spike, AlphaProteo produced binders that worked."
+  },
+  {
+    "id": "S2-35",
+    "text": "On one target, called BHRF1, eighty-eight percent of the candidates actually stuck."
+  },
+  {
+    "id": "S2-36",
+    "text": "Eighty-eight percent. I have never been eighty-eight percent right about anything, including where I parked."
+  },
+  {
+    "id": "S2-37",
+    "text": "DeepMind says its binders latched on three to three hundred times more strongly than the best existing methods."
+  },
+  {
+    "id": "S2-38",
+    "text": "The Francis Crick Institute then checked the results independently, and some coronavirus binders stopped the virus from infecting cells."
+  },
+  {
+    "id": "S2-39",
+    "text": "That's basically science for pics or it didn't happen."
+  },
+  {
+    "id": "S2-40",
+    "text": "That's seven targets, seven wins. And then there was target number eight."
+  },
+  {
+    "id": "S2-41",
+    "text": "Target eight was a protein called TNF alpha, and AlphaProteo struck out."
+  },
+  {
+    "id": "S2-42",
+    "text": "Every hero needs a final boss, and apparently this one's is TNF alpha."
+  },
+  {
+    "id": "S2-43",
+    "text": "And I'm glad they reported the miss, because it tells you this is a tool, not magic."
+  },
+  {
+    "id": "S2-44",
+    "text": "Okay, grabbing is cool, but editing DNA is a whole other level."
+  },
+  {
+    "id": "S2-45",
+    "text": "CRISPR gene editing uses two parts, a guide RNA that carries the address and a Cas protein that does the cutting."
+  },
+  {
+    "id": "S2-46",
+    "text": "It's basically find-and-replace for your DNA, where the guide is the search box and Cas9 is the scissors."
+  },
+  {
+    "id": "S2-47",
+    "text": "But after the cut, the cell does its own repairs, so it isn't always as clean as hitting replace."
+  },
+  {
+    "id": "S2-48",
+    "text": "It's the most powerful word processor ever made, and there is no undo button."
+  },
+  {
+    "id": "S2-49",
+    "text": "On April 22nd, 2024, a company called Profluent released OpenCRISPR-1, which it billed as the world's first open-source, AI-generated gene editor."
+  },
+  {
+    "id": "S2-50",
+    "text": "To build it, they trained a protein language model on CRISPR-Cas sequences and had it write three hundred fifty thousand new proteins."
+  },
+  {
+    "id": "S2-51",
+    "text": "That kind of model treats amino acids like letters and keeps guessing the next one, like the autocomplete on your phone."
+  },
+  {
+    "id": "S2-52",
+    "text": "But autocomplete can sound great and mean nothing, and a protein can look great and do nothing, so somebody still has to test it."
+  },
+  {
+    "id": "S2-53",
+    "text": "Full disclosure, AI helps make this channel too, and ours mostly suggests jokes while theirs suggests gene editors."
+  },
+  {
+    "id": "S2-54",
+    "text": "Profluent filtered that pile down, and the winner became OpenCRISPR-1."
+  },
+  {
+    "id": "S2-55",
+    "text": "Reportedly, it differs from the standard Cas9 by around four hundred amino acids and still edits about as well or better."
+  },
+  {
+    "id": "S2-56",
+    "text": "Evolution wrote the original code, and the AI showed up with one very large pull request."
+  },
+  {
+    "id": "S2-57",
+    "text": "But a pull request means nothing until it runs. So did these AI-written scissors actually edit human DNA?"
+  },
+  {
+    "id": "S2-58",
+    "text": "They did. Profluent says it was the first time an AI-designed editor precisely edited the human genome, in human cells in a dish."
+  },
+  {
+    "id": "S2-59",
+    "text": "And on July 30th, 2025, the full study was published in Nature."
+  },
+  {
+    "id": "S2-60",
+    "text": "Peer review approved the pull request."
+  },
+  {
+    "id": "S2-61",
+    "text": "Here's the part I didn't see coming. Profluent made OpenCRISPR-1 free to license for ethical research and commercial use."
+  },
+  {
+    "id": "S2-62",
+    "text": "Some uses are off the table, like editing the human germline, meaning changes that get passed down to your kids."
+  },
+  {
+    "id": "S2-63",
+    "text": "So no, you can't use it to patch your future children."
+  },
+  {
+    "id": "S2-64",
+    "text": "And it's not just these two teams."
+  },
+  {
+    "id": "S2-65",
+    "text": "In June 2024, EvolutionaryScale released a model called ESM3 and used it to make a new glowing protein, esmGFP."
+  },
+  {
+    "id": "S2-66",
+    "text": "Its sequence matches its closest natural relative by only fifty-eight percent, and the company compared that gap to five hundred million years of evolution."
+  },
+  {
+    "id": "S2-67",
+    "text": "To be clear, that's a way to describe how different the sequence is, not a time machine."
+  },
+  {
+    "id": "S2-68",
+    "text": "Which is the most press-release way possible to say pretty different."
+  },
+  {
+    "id": "S2-69",
+    "text": "So far, we've got AI writing proteins that grab, cut, and glow."
+  },
+  {
+    "id": "S2-70",
+    "text": "Which brings us to the question everyone asks next. When does your doctor get to use any of this?"
+  },
+  {
+    "id": "S2-71",
+    "text": "Not yet, and that's the catch I promised."
+  },
+  {
+    "id": "S2-72",
+    "text": "Every result in this video came from test tubes, cells, and papers, and none of it is an approved treatment."
+  },
+  {
+    "id": "S2-73",
+    "text": "And that creates a strange new traffic jam."
+  },
+  {
+    "id": "S2-74",
+    "text": "One model wrote three hundred fifty thousand candidates, but a lab still has to prove which ones actually work."
+  },
+  {
+    "id": "S2-75",
+    "text": "So does AI make biology faster, or does it just make the line outside the lab a lot longer?"
+  },
+  {
+    "id": "S2-76",
+    "text": "Either way, the pipette isn't going anywhere."
+  },
+  {
+    "id": "S2-77",
+    "text": "Now, remember our protein powder friend, AlphaProteo?"
+  },
+  {
+    "id": "S2-78",
+    "text": "Baker's lab open-sourced RFdiffusion, and Profluent opened up its editor, but DeepMind did not release AlphaProteo to the public."
+  },
+  {
+    "id": "S2-79",
+    "text": "Why keep this one locked up?"
+  },
+  {
+    "id": "S2-80",
+    "text": "DeepMind says it chose a careful rollout instead, consulting outside experts and joining an AI and biology forum run by the Nuclear Threat Initiative."
+  },
+  {
+    "id": "S2-81",
+    "text": "And that points to the uncomfortable question under this whole story."
+  },
+  {
+    "id": "S2-82",
+    "text": "If an AI can design a protein that helps, could someone aim it at something harmful? And who checks before anything actually gets made?"
+  },
+  {
+    "id": "S2-83",
+    "text": "The reassuring part, to me, is that scientists asked that out loud, and early."
+  },
+  {
+    "id": "S2-84",
+    "text": "In March 2024, more than one hundred fifty of them signed voluntary commitments on responsible AI in protein design, in an effort led in part by David Baker."
+  },
+  {
+    "id": "S2-85",
+    "text": "They promised things like safety reviews before releasing models, and buying synthetic DNA only from suppliers that screen orders for biosecurity."
+  },
+  {
+    "id": "S2-86",
+    "text": "Think of a print shop that checks every job, so nobody walks out with a stack of fake twenties."
+  },
+  {
+    "id": "S2-87",
+    "text": "It's voluntary, so it's less a law and more a very important group chat where everyone agreed to behave."
+  },
+  {
+    "id": "S2-88",
+    "text": "So, did AI learn to write biology?"
+  },
+  {
+    "id": "S2-89",
+    "text": "I'd say kind of."
+  },
+  {
+    "id": "S2-90",
+    "text": "It writes drafts, some of them are shockingly good, and sometimes, like with target number eight, nothing lands."
+  },
+  {
+    "id": "S2-91",
+    "text": "Every one of those drafts still needed a human lab to say yes."
+  },
+  {
+    "id": "S2-92",
+    "text": "And hey, the Nobel still went to people, not a server rack."
+  },
+  {
+    "id": "S2-93",
+    "text": "Here's the thing I keep coming back to."
+  },
+  {
+    "id": "S2-94",
+    "text": "If a medicine designed with AI passed every human trial, would you take it? And would it matter to you who, or what, wrote it?"
+  },
+  {
+    "id": "S2-95",
+    "text": "Personally, I care way more about the trial than the author."
+  },
+  {
+    "id": "S2-96",
+    "text": "Meanwhile, somewhere, a chatbot is still counting the R's in strawberry."
+  },
+  {
+    "id": "S2-97",
+    "text": "I'm genuinely curious, so drop your answer in the comments, and send this to the friend who keeps saying AI can't do real science."
+  },
+  {
+    "id": "S2-98",
+    "text": "Subscribe, and see you next meltdown."
+  }
+]
