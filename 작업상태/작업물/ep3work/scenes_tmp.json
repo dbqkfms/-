@@ -1,0 +1,386 @@
+[
+  {
+    "id": "S6-01",
+    "text": "In the summer of 2023, two papers claimed a superconductor that works at room temperature, and for a few weeks, everybody lost it."
+  },
+  {
+    "id": "S6-02",
+    "text": "So who proved them wrong, and can AI find the real one?"
+  },
+  {
+    "id": "S6-03",
+    "text": "Within about three and a half weeks, Nature ran a headline saying LK-99 isn't a superconductor."
+  },
+  {
+    "id": "S6-04",
+    "text": "That same year, an AI predicted millions of new crystals, and a robot lab started cooking up materials on its own."
+  },
+  {
+    "id": "S6-05",
+    "text": "I think how LK-99 died is the useful part, because AI now has to pass the exact same test."
+  },
+  {
+    "id": "S6-06",
+    "text": "Let's rewind to July 22nd, 2023, when the two papers went up on arXiv a couple of hours apart."
+  },
+  {
+    "id": "S6-07",
+    "text": "The authors claimed their material superconducts at normal pressure, up to one hundred twenty-seven degrees Celsius."
+  },
+  {
+    "id": "S6-08",
+    "text": "Online, the mood kept whipping between 'we're so back' and 'it's so over.'"
+  },
+  {
+    "id": "S6-09",
+    "text": "By mid-August, one superconductor-themed stock in Korea was trading at four and a half times its price from the day before the papers."
+  },
+  {
+    "id": "S6-10",
+    "text": "For a few weeks, a lump of baked powder had better hype than most new phones."
+  },
+  {
+    "id": "S6-11",
+    "text": "To see why, we need the two things a superconductor does."
+  },
+  {
+    "id": "S6-12",
+    "text": "First, below a certain temperature, its electrical resistance drops to exactly zero."
+  },
+  {
+    "id": "S6-13",
+    "text": "A current in a superconducting loop keeps flowing almost indefinitely, like a hockey puck on perfect ice."
+  },
+  {
+    "id": "S6-14",
+    "text": "Your phone charger, meanwhile, gets warm doing nothing."
+  },
+  {
+    "id": "S6-15",
+    "text": "Second, it pushes magnetic fields out of itself, which is called the Meissner effect."
+  },
+  {
+    "id": "S6-16",
+    "text": "Think of a bouncer throwing the magnetic field out of the club."
+  },
+  {
+    "id": "S6-17",
+    "text": "That's why magnets can float over one, and in many real superconductors a bit of field gets pinned inside, locking the magnet in midair."
+  },
+  {
+    "id": "S6-18",
+    "text": "Zero resistance and the bouncer are the two tests, and they're the whole case today."
+  },
+  {
+    "id": "S6-19",
+    "text": "Your fridge magnets would not last one night at this club."
+  },
+  {
+    "id": "S6-20",
+    "text": "Superconductors already run MRI machines, the Large Hadron Collider, and a Japanese maglev that, per its operator, hit three hundred seventy-four miles per hour."
+  },
+  {
+    "id": "S6-21",
+    "text": "The problem is the cold, since MRI magnets sit in liquid helium and the collider's magnets run colder than outer space."
+  },
+  {
+    "id": "S6-22",
+    "text": "It's a bit like ice, which only exists below a certain temperature, except here it's electrons pairing up, not anything freezing."
+  },
+  {
+    "id": "S6-23",
+    "text": "The dream is ice that survives a Texas summer."
+  },
+  {
+    "id": "S6-24",
+    "text": "That was the bar for LK-99, both tests, at room temperature."
+  },
+  {
+    "id": "S6-25",
+    "text": "It was a modified lead apatite, basically lead, copper, phosphorus and oxygen baked together from powders."
+  },
+  {
+    "id": "S6-26",
+    "text": "The second paper showed a photo of a sample over a magnet, and said it plainly, 'the levitation is not perfect.'"
+  },
+  {
+    "id": "S6-27",
+    "text": "One side lifts, and the other side is still touching the magnet."
+  },
+  {
+    "id": "S6-28",
+    "text": "A hoverboard with one wheel on the ground is just a skateboard with big dreams."
+  },
+  {
+    "id": "S6-29",
+    "text": "Both papers were preprints, so nobody had peer reviewed them yet."
+  },
+  {
+    "id": "S6-30",
+    "text": "arXiv is basically early access, and that summer the whole planet joined the beta."
+  },
+  {
+    "id": "S6-31",
+    "text": "Then the labs went to work, starting with the float."
+  },
+  {
+    "id": "S6-32",
+    "text": "On August 6th, a Peking University team showed a similar sample could half levitate from soft ferromagnetism, which is plain, weak magnetism, plus its flat, flaky shape."
+  },
+  {
+    "id": "S6-33",
+    "text": "They found no bouncer effect and no zero resistance."
+  },
+  {
+    "id": "S6-34",
+    "text": "The rock was basically leaning on the magnet like a teenager on a locker."
+  },
+  {
+    "id": "S6-35",
+    "text": "But the papers also showed a sharp drop in resistance, so where did that come from?"
+  },
+  {
+    "id": "S6-36",
+    "text": "Two days later, a Chinese Academy of Sciences team found the culprit, a copper sulfide impurity in the samples."
+  },
+  {
+    "id": "S6-37",
+    "text": "A bit above the boiling point of water, copper sulfide changes its structure, and its resistance falls by a factor of thousands, but never to zero."
+  },
+  {
+    "id": "S6-38",
+    "text": "It's a loading bar that jumps to ninety-nine percent and just sits there forever."
+  },
+  {
+    "id": "S6-39",
+    "text": "On August 11th, a Max Planck team in Stuttgart grew pure LK-99 crystals with no impurities."
+  },
+  {
+    "id": "S6-40",
+    "text": "They came out transparent, purple, and highly insulating, so electricity barely gets through."
+  },
+  {
+    "id": "S6-41",
+    "text": "The cleaned-up miracle conductor was basically a pretty purple window."
+  },
+  {
+    "id": "S6-42",
+    "text": "In speedrunning, a record only counts when other runners can pull it off too, and in physics, that means other labs making their own samples from scratch."
+  },
+  {
+    "id": "S6-43",
+    "text": "No verified run, no leaderboard."
+  },
+  {
+    "id": "S6-44",
+    "text": "Korea's superconductivity society had set up its own verification committee on August 2nd, with eight research institutions."
+  },
+  {
+    "id": "S6-45",
+    "text": "But the company behind LK-99 never handed over a sample."
+  },
+  {
+    "id": "S6-46",
+    "text": "Try verifying a speedrun without ever seeing the save file."
+  },
+  {
+    "id": "S6-47",
+    "text": "The committee ended up making LK-99 itself, three different ways, and none of it superconducted, at room temperature or cooled down."
+  },
+  {
+    "id": "S6-48",
+    "text": "On December 13th, 2023, it concluded there was no evidence at all that LK-99 is a room-temperature, normal-pressure superconductor."
+  },
+  {
+    "id": "S6-49",
+    "text": "Four months of lab work, and the verdict fits in a text message."
+  },
+  {
+    "id": "S6-50",
+    "text": "I keep thinking about that stock chart, though. A preprint nobody had peer reviewed moved real people's money."
+  },
+  {
+    "id": "S6-51",
+    "text": "Next time, who's supposed to tap the brakes, the scientists, the reporters, or the rest of us mashing refresh?"
+  },
+  {
+    "id": "S6-52",
+    "text": "My vote is us, because the labs were the fast ones here."
+  },
+  {
+    "id": "S6-53",
+    "text": "And waiting for peer review doesn't fully fix this either."
+  },
+  {
+    "id": "S6-54",
+    "text": "In March 2023, Nature published a University of Rochester group's claim of a superconductor at up to about twenty-one degrees Celsius, under pressure."
+  },
+  {
+    "id": "S6-55",
+    "text": "By November it was retracted after eight of its eleven authors asked, and it was the group's second Nature retraction."
+  },
+  {
+    "id": "S6-56",
+    "text": "According to Nature, a university-commissioned investigation later concluded that the group's leader, Ranga Dias, had fabricated and falsified data."
+  },
+  {
+    "id": "S6-57",
+    "text": "In November 2024, the university confirmed he no longer works there."
+  },
+  {
+    "id": "S6-58",
+    "text": "Early access was one thing, but even official releases get recalled."
+  },
+  {
+    "id": "S6-59",
+    "text": "Okay, enter the AI. In November 2023, Google DeepMind's GNoME predicted about two point two million new crystal structures that should be stable."
+  },
+  {
+    "id": "S6-60",
+    "text": "DeepMind says that's nearly eight hundred years' worth of knowledge."
+  },
+  {
+    "id": "S6-61",
+    "text": "Bold words for what is, technically, a very large list."
+  },
+  {
+    "id": "S6-62",
+    "text": "Think of GNoME as a dating app swiping through crystal profiles, while somebody still has to go on the actual dates."
+  },
+  {
+    "id": "S6-63",
+    "text": "Stable on a computer doesn't mean you can make it, let alone that it superconducts, and the paper's headline results weren't superconductors anyway."
+  },
+  {
+    "id": "S6-64",
+    "text": "In 2024, two chemists reviewing those claims called the evidence for new, credible and useful compounds scant."
+  },
+  {
+    "id": "S6-65",
+    "text": "In academic language, scant is basically a roast."
+  },
+  {
+    "id": "S6-66",
+    "text": "The same day as GNoME, Nature published a paper on a robot lab called A-Lab, which reported making forty-one novel compounds in seventeen days."
+  },
+  {
+    "id": "S6-67",
+    "text": "Then in 2024, another team reanalyzed its products and concluded no new materials had been discovered, partly because the automated X-ray analysis wasn't reliable yet."
+  },
+  {
+    "id": "S6-68",
+    "text": "The robot cooked dinner, and the critics sent every plate back."
+  },
+  {
+    "id": "S6-69",
+    "text": "In January 2026, the A-Lab authors published a correction in Nature."
+  },
+  {
+    "id": "S6-70",
+    "text": "They clarified that new meant new to their prediction platform, not new to science, and the count dropped from forty-one to thirty-six."
+  },
+  {
+    "id": "S6-71",
+    "text": "I respect that, because fixing your own claim in public is how science is supposed to work."
+  },
+  {
+    "id": "S6-72",
+    "text": "The patch notes basically say new now means new to us."
+  },
+  {
+    "id": "S6-73",
+    "text": "And to me, this is the real change AI brought."
+  },
+  {
+    "id": "S6-74",
+    "text": "Coming up with candidates got cheap, but checking them didn't."
+  },
+  {
+    "id": "S6-75",
+    "text": "If AI can pitch a million materials by Friday, who has the time, the samples and the X-ray machines to check them?"
+  },
+  {
+    "id": "S6-76",
+    "text": "My money's on some very tired humans."
+  },
+  {
+    "id": "S6-77",
+    "text": "Has AI actually found a real superconductor, then? Yes, and this is the part I genuinely love."
+  },
+  {
+    "id": "S6-78",
+    "text": "A team including the University of Florida used an AI model called BEE-NET to narrow more than one point three million candidates down to seven hundred forty-one."
+  },
+  {
+    "id": "S6-79",
+    "text": "Then they made two of them, beryllium, hafnium and niobium compounds nobody had made or even calculated before, and both superconducted."
+  },
+  {
+    "id": "S6-80",
+    "text": "The catch is that they kick in at three point one eight and four point two four kelvin, which is liquid helium territory."
+  },
+  {
+    "id": "S6-81",
+    "text": "A historic AI discovery, best served colder than minus two hundred sixty-nine Celsius."
+  },
+  {
+    "id": "S6-82",
+    "text": "And in March 2026, a University of Houston team reported in PNAS that a mercury-based copper oxide superconducts at one hundred fifty-one kelvin at normal pressure."
+  },
+  {
+    "id": "S6-83",
+    "text": "That's still about minus one hundred twenty-two Celsius, but it broke a normal-pressure record that had stood since 1993."
+  },
+  {
+    "id": "S6-84",
+    "text": "They squeezed a tiny sample between diamonds, chilled it, and released the pressure fast, like freezing a pose so it keeps its high-pressure shape."
+  },
+  {
+    "id": "S6-85",
+    "text": "It holds that pose for at least three days at liquid nitrogen temperature, but above two hundred kelvin the boost fades."
+  },
+  {
+    "id": "S6-86",
+    "text": "The ice survives a long weekend in the freezer, and Texas remains undefeated."
+  },
+  {
+    "id": "S6-87",
+    "text": "So what did AI actually change?"
+  },
+  {
+    "id": "S6-88",
+    "text": "It made guessing cheap, with millions of candidates, robot labs, and two genuinely new superconductors."
+  },
+  {
+    "id": "S6-89",
+    "text": "What it didn't change is the slow part, a second lab making the thing from scratch and running both tests."
+  },
+  {
+    "id": "S6-90",
+    "text": "That's what took down LK-99, and it's what kept the AI papers honest too."
+  },
+  {
+    "id": "S6-91",
+    "text": "After a viral rock and two retracted Nature papers, if the real room-temperature superconductor shows up, will anyone believe it?"
+  },
+  {
+    "id": "S6-92",
+    "text": "Personally, I'll believe it the day a second lab makes one and it passes both tests, and not a minute before."
+  },
+  {
+    "id": "S6-93",
+    "text": "The real hero of this story is the second lab."
+  },
+  {
+    "id": "S6-94",
+    "text": "And somehow, nobody ever made a 'we're so back' meme about the second lab."
+  },
+  {
+    "id": "S6-95",
+    "text": "What would it take to convince you? Tell me in the comments, and show this to whoever was absolutely sure about that rock."
+  },
+  {
+    "id": "S6-96",
+    "text": "Subscribe, and see you next meltdown."
+  }
+]

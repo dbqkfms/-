@@ -1,0 +1,146 @@
+In the summer of 2023, two papers claimed a superconductor that works at room temperature, and for a few weeks, everybody lost it.
+So who proved them wrong, and can AI find the real one?
+
+Within about three and a half weeks, Nature ran a headline saying LK-99 isn't a superconductor.
+That same year, an AI predicted millions of new crystals, and a robot lab started cooking up materials on its own.
+I think how LK-99 died is the useful part, because AI now faces the same test.
+
+Let's rewind to July 22nd, 2023, when the two papers went up on arXiv a couple of hours apart.
+The authors claimed their material superconducts at normal pressure, up to one hundred twenty-seven degrees Celsius.
+Online, the mood kept whipping between 'we're so back' and 'it's so over.'
+By mid-August, one Korean superconductor stock was at four and a half times its price from the day before the papers.
+
+For a few weeks, a lump of baked powder had better hype than most new phones.
+
+To see why, we need the two things a superconductor does.
+First, below a certain temperature, its electrical resistance drops to exactly zero.
+A current in a superconducting loop keeps flowing almost indefinitely, like a hockey puck on perfect ice.
+
+Your phone charger, meanwhile, gets warm doing nothing.
+
+Second, it pushes magnetic fields out of itself, which is called the Meissner effect.
+Think of a bouncer throwing the magnetic field out of the club.
+That's why magnets can float over one, and in many real superconductors a bit of field gets pinned inside, locking the magnet in midair.
+Zero resistance and the bouncer are the two tests, and they're the whole case today.
+
+Your fridge magnets would not last one night at this club.
+
+Superconductors already run MRI machines, the Large Hadron Collider, and a Japanese maglev that, per its operator, hit three hundred seventy-four miles per hour.
+The problem is the cold, since MRI magnets sit in liquid helium and the collider's magnets run colder than outer space.
+It's a bit like ice, which only exists below a certain temperature, except here it's electrons pairing up, not anything freezing.
+
+The dream is ice that survives a Texas summer.
+
+That was the bar for LK-99, both tests, at room temperature.
+It was a modified lead apatite, basically lead, copper, phosphorus and oxygen baked together from powders.
+The second paper showed a photo of a sample over a magnet, and said it plainly, 'the levitation is not perfect.'
+One side lifts, and the other side is still touching the magnet.
+
+A hoverboard with one wheel on the ground is just a skateboard with big dreams.
+
+Both papers were preprints, so nobody had peer reviewed them yet.
+arXiv is basically early access, and that summer the whole planet joined the beta.
+
+Then the labs went to work, and we'll start with the float.
+On August 6th, a Peking University team showed a similar sample could half levitate from soft ferromagnetism, which is plain, weak magnetism, plus its flat, flaky shape.
+They found no bouncer effect and no zero resistance.
+
+The rock was basically leaning on the magnet like a teenager on a locker.
+
+But the papers also showed a sharp drop in resistance, so where did that come from?
+Two days later, a Chinese Academy of Sciences team found the culprit, a copper sulfide impurity in the samples.
+A bit above the boiling point of water, copper sulfide changes its structure, and its resistance falls by a factor of thousands, but never to zero.
+
+It's a loading bar that jumps to ninety-nine percent and just sits there forever.
+
+On August 11th, a Max Planck team in Stuttgart grew pure LK-99 crystals with no impurities.
+They came out transparent, purple, and highly insulating, so electricity barely gets through.
+
+So our miracle conductor, cleaned up, was basically a pretty purple window.
+
+In speedrunning, a record only counts when other runners can pull it off too, and in physics, that means other labs making their own samples from scratch.
+
+No verified run, no leaderboard.
+
+Korea's superconductivity society had set up its own verification committee on August 2nd, with eight research institutions.
+But the company behind LK-99 never handed over a sample.
+
+Try verifying a speedrun without ever seeing the save file.
+
+The committee made LK-99 itself, three different ways, and none of it superconducted, warm or cold.
+On December 13th, 2023, it concluded there was no evidence at all that LK-99 is a room-temperature, normal-pressure superconductor.
+
+Four months of lab work, and the verdict fits in a text message.
+
+I keep thinking about that stock chart, though.
+A preprint nobody had peer reviewed moved real people's money.
+Next time, who's supposed to tap the brakes, the scientists, the reporters, or the rest of us mashing refresh?
+My vote is us, because the labs were the fast ones here.
+
+And waiting for peer review doesn't fully fix this either.
+In March 2023, Nature published a University of Rochester group's claim of a superconductor at up to about twenty-one degrees Celsius, under pressure.
+By November it was retracted after eight of its eleven authors asked, and it was the group's second Nature retraction.
+According to Nature, a university-commissioned investigation later concluded that the group's leader, Ranga Dias, had fabricated and falsified data.
+In November 2024, the university confirmed he no longer works there.
+
+Early access was one thing, but even official releases get recalled.
+
+Okay, enter the AI.
+In November 2023, Google DeepMind's GNoME predicted about two point two million new crystal structures that should be stable.
+DeepMind says that's nearly eight hundred years' worth of knowledge.
+
+Bold words for what is, technically, a very large list.
+
+Think of GNoME as a dating app swiping through crystal profiles, while somebody still has to go on the actual dates.
+Stable on a computer doesn't mean you can make it, let alone that it superconducts, and the paper's headline results weren't superconductors anyway.
+In 2024, two chemists reviewing those claims called the evidence for new, credible and useful compounds scant.
+
+In academic language, scant is basically a roast.
+
+The same day as GNoME, Nature published a paper on a robot lab called A-Lab, which reported making forty-one novel compounds in seventeen days.
+Then in 2024, another team reanalyzed its products and concluded no new materials had been discovered, partly because the automated X-ray analysis wasn't reliable yet.
+
+The robot cooked dinner, and the critics sent every plate back.
+
+In January 2026, the A-Lab authors published a correction in Nature.
+They clarified that new meant new to their prediction platform, not new to science, and the count dropped from forty-one to thirty-six.
+I respect that, because fixing your own claim in public is how science is supposed to work.
+
+The patch notes basically say new now means new to us.
+
+And to me, this is the real change AI brought.
+Coming up with candidates got cheap, but checking them didn't.
+If AI can pitch a million materials by Friday, who has the samples and the X-ray time to check them?
+
+My money's on some very tired humans.
+
+Has AI actually found a real superconductor, then?
+Yes, and this is the part I genuinely love.
+A team including the University of Florida used an AI model called BEE-NET to narrow more than one point three million candidates down to seven hundred forty-one.
+Then they made two of them, beryllium, hafnium and niobium compounds nobody had made or even calculated before, and both superconducted.
+The catch is that they kick in at three point one eight and four point two four kelvin, which is liquid helium territory.
+
+A historic AI discovery, best served colder than minus two hundred sixty-nine Celsius.
+
+And in March 2026, a University of Houston team reported in PNAS that a mercury-based copper oxide superconducts at one hundred fifty-one kelvin at normal pressure.
+That's still about minus one hundred twenty-two Celsius, but it broke a normal-pressure record that had stood since 1993.
+They squeezed a tiny sample between diamonds, chilled it, and released the pressure fast, like freezing a pose so it keeps its high-pressure shape.
+It holds that pose for at least three days at liquid nitrogen temperature, but warm it above two hundred kelvin and the boost fades.
+
+The ice survives a long weekend in the freezer, and Texas remains undefeated.
+
+So what did AI actually change?
+It made guessing cheap, with millions of candidates, robot labs, and two genuinely new superconductors.
+What it didn't change is the slow part, a second lab making the thing from scratch and running both tests.
+That's what took down LK-99, and it's what kept the AI papers honest too.
+
+After a viral rock and two retracted Nature papers, if the real room-temperature superconductor shows up, will anyone believe it?
+Personally, I'll believe it the day a second lab makes one and it passes both tests, and not a minute before.
+
+If you ask me, the real hero of this story is the second lab.
+And somehow, nobody ever made a 'we're so back' meme about the second lab.
+
+What would it take to convince you?
+Tell me in the comments, and show this to whoever was absolutely sure about that rock.
+
+Subscribe, and see you next meltdown.
